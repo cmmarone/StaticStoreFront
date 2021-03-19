@@ -1,0 +1,237 @@
+
+
+body{
+    /* height: 100%; */
+    padding: 0;
+    margin: 0;
+    /* -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%; */
+}
+
+.titleBar{
+    height: 360px;
+    width: 100%;
+    border-bottom: 6px groove lightgrey ;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('assets/spoon.jpg');
+    background-position: 0% 74%;
+}
+
+.titleBar h1{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-family: Helvetica, Arial;
+    font-size: 46pt;
+    letter-spacing:0.2em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0ad5fa;
+    text-shadow: 8px -8px #3246a8, 15px -15px #3d3d40;
+}
+
+#socialLinks {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    background-color: #ebb549;
+    height: 20px;
+    width: 200px;
+}
+
+
+.sideBar{
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 4186px;
+    float: left;
+    position: absolute;
+    border-right: 6px groove lightgrey;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.sideBar::before{
+    content: "";
+    position: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('assets/tile4.png');
+    background-repeat: repeat;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.sideBar h3{
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #ebb549;
+    font-size: 20pt;
+    text-shadow: 1px 1px #78591c;
+    text-align: center;
+}
+
+.sideBar a:link, .sideBar a:visited{
+    font-size: 14pt;
+    color: white;
+    text-decoration: none;
+}
+
+.sideBarBox{
+    border: 4px groove #3246a8;
+    box-shadow: #2e3d47 1px 6px 10px;
+    background-color: #3950c2;
+    font-size: 16pt;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+#aboutUsBox{
+    margin: 20px;
+    padding: 4px;
+    font-size: 12pt;
+    text-align: left;
+}
+
+#aboutList{
+    opacity: 0.7;
+}
+
+.sideBar hr{
+    text-align: center;
+    margin-bottom: 30px;
+    width: 40%;
+}
+
+.mainContent{
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 85%;
+    height: 4000px;
+}
+
+.mainContent::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('assets/tile3.png');
+    background-repeat: repeat;
+    opacity: 0.85;
+    z-index: -2;
+}
+
+.mainContent h2{
+    margin: 40px 0 0 0;
+    padding: 0;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 36pt;
+    color: #ebb549;
+    text-shadow: 2px 2px #78591c;
+}
+
+#descriptions{
+    text-align: center;
+    font-family: Helvetica;
+    color: #694712;
+    opacity: 0.4;
+}
+
+#servicesTitle{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 48pt;
+    color: #ebb549;
+    text-shadow: 2px 2px #78591c;
+}
+
+#serviceDescriptions{
+    text-align: center;
+    font-family: Helvetica;
+    color: #694712;
+    padding: 0 0 10px 0;
+}
+
+
+#table{
+    position: relative;
+    left: 7.5%;
+    margin: 0;
+    padding: 40px 0 0 0;
+    width: 85%;
+    text-align:center;
+}
+
+th{
+    margin: 40px 0 0 0;
+    padding: 0;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20pt;
+    color: #3246a8;
+    text-shadow: 1px 1px #3d3d40;
+}
+
+img{
+    margin: 10px 10px 30px 10px;
+    text-align: center;
+    box-shadow: #2e3d47 2px 5px 10px;
+}
+
+
+button{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:1em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#0ad5fa;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    button:hover{
+    background-color:#3246a8;
+    }
+    /* @media all and (max-width:30em){
+     button{
+    display:block;
+    margin:0.2em auto;
+     }
+    } */
+
+.mainContent hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px #000000;
+}
+
+
+footer{
+    height: 50px;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 14pt;
+    background-color: #053480; 
+}
+
